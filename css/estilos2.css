@@ -1,11 +1,64 @@
+/* 1.Universal */
 
-h3 {
-    color: aqua;
-    background: yellow;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    color: rgb(10, 161, 225);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
+/* 2. Por tipo de elemento tipo html */
 h4 {
-    font-family: Arial, Helvetica, sans-serif;
+    background: red;
+    font-size: 40px;
+}
+
+h5 {
+    background: rgb(6, 243, 61);
+    font-size: 10px;
+}
+
+/* 3. Por Clase */
+.grupo1 {
+    background: yellow;
+    border: solid black 3px;
+
+}
+
+/* 4. Por ID */
+#id_boton1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+   /* border: solid red 5px;*/
+
+}
+
+/* 5. Por atributo, combinado : button[ id] */
+[id] {
     font-size: 50px;
+    border: solid yellow 10px;
+    border-radius: 20px;
+
+}
+
+img[alt="texto1"] {
+    width: 40px;
+    height: 50px;
+}
+img[src*=".png"] {
+    width: 40px;
+    height: 50px;
+}
+/* 6. Por pseudo-clases (eventos)*/
+i:hover {
+    color:rgb(6, 6, 56);
+    font-size: 70px;
+    
+}
+input:focus {
+    border-color: blueviolet;
+    background: red;
+
 }
