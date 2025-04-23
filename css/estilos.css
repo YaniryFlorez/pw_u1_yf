@@ -1,0 +1,21 @@
+h1 {
+    color: green;
+    background: red;
+    padding: 20px 10px 40px 5px;
+    width: 200px;
+    height: 70px;
+    border: dotted black 2px;
+    margin: 20px 20px 20px 20px;
+
+}
+
+h2 {
+    color: black;
+    background: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-bottom: solid red 1px;
+
+}
