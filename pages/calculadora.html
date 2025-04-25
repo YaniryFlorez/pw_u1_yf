@@ -13,16 +13,15 @@
     <nav>
     </nav>
     <section>
-       <label id="ide_label_1" for="id_numero_1">Numero 1</label>
-       <input id="ide_numero_1"type="number" id="id_numero_1">
-       <label id="ide_label_2" for="id_numero_2">Numero 2</label>
-       <input type="number" id="id_numero_2">
-
-       <button onclick="document.getElementById('ide_label_1').style.background='blue'">Cambiar Color</button>
-       <button onclick="document.getElementById('ide_label_2').innerText='Numero'">Cambiar Texto</button>
-       <button onclick="document.getElementById('ide_label_1').style.fontSize='40px'">Cambiar Tamaño</button>
-       <button onclick="document.getElementById('id_concatenar').innerText=document.getElementById('id_numero_1').innerText">Concatenar</button>
-       <label id="id_concatenar" for=""></label>
+       <label id="id_label_1" for="id_numero_1">Numero 1</label>
+       <input id="id_numero_1"type="number" id="id_numero_1">
+       <label id="id_label_2" for="id_numero_2">Numero 2</label>
+       <input  id="id_numero_2"type="number">
+       <p id="id_resultado">resultado: </p>
+       <button onclick="evaluarOperacion('+')">Sumar</button>
+       <button onclick="evaluarOperacion('-')">Restar</button>
+       <button onclick="evaluarOperacion('*')">Multiplicar</button>
+       <button onclick="evaluarOperacion('/')">Dividir</button>
 
     </section>
 
