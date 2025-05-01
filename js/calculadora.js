@@ -129,7 +129,7 @@ function fundamentosJS() {
     ciudadano.direccion.callePrincipal = 'Av. Amazonas';
     console.log(ciudadano);
 
-    const est1 = { nombre: 'Erick' };
+    const est1 = { nombre: 'juan' };
     const est2 = { nombre: 'Jhon' };
 
     const arregloEstudiantes = [est1, est2];
@@ -161,7 +161,7 @@ function fundamentosJS() {
     const [, p2, p3] = DesestructuraciónArreglo2();
     console.log(p2);
     console.log(p3);
-    console.log(p10);
+    //console.log(p10);
 
 }
 
@@ -188,7 +188,7 @@ function DesestructuraciónArreglo([c1, c2, c3, c4]) {
     };
 
 
-    console.log(color);
+    console.log(auto.color);
     desestructuracionObjeto(auto);
 
     const Universidad = {
