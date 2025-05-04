@@ -1,5 +1,6 @@
 function guardar(){
   validar();
+  alert("Los datos han sido guardados correctamente");
   //validar todos los campos Tarea.
 } 
 
